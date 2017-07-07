@@ -1,0 +1,25 @@
+{
+  "manifest": {
+    "version": "1.0.0",
+    "bundles": [{
+      "uri": "a",
+      "pkg": "com.wolf.appa"
+    },
+      {
+        "uri": "b",
+        "pkg": "com.wolf.appb"
+      },
+      {
+        "uri": "c",
+        "pkg": "com.wolf.appc"
+      }]
+  },
+  "updates": [{
+    "pkg": "com.wolf.appb",
+    "url": "http://192.168.253.15:8080/libcom_wolf_appb.so"
+  },
+    {
+      "pkg": "com.wolf.appc",
+      "url": "http://192.168.253.15:8080/libcom_wolf_appc.so"
+    }]
+}

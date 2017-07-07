@@ -1,0 +1,22 @@
+
+//version，是 bundle.json 文件格式版本，目前始终为 1.0.0
+//bundles，插件数组
+//uri，插件唯一ID
+//pkg，插件包名
+
+
+{
+  "version": "1.0.0",
+  "bundles": [
+    {
+      "uri": "a",
+      "pkg": "com.wolf.appa"
+    }, {
+      "uri": "b",
+      "pkg": "com.wolf.appb"
+    }, {
+      "uri": "c",
+      "pkg": "com.wolf.appc"
+    }
+  ]
+}
