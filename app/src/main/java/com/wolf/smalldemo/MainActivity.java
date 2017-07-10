@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
         progressDialog.setMessage("正在下载第" + (index + 1) + "个文件");
         progressDialog.setMax(100);
         progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-        OkGo.<File>get(updateInfo.getUrl()).execute(new FileCallback(file.getPath(), null) {
+        OkGo.<File>get(updateInfo.getUrl()).execute(new FileCallback(filePath, null) {
             @Override
             public void downloadProgress(Progress progress) {
                 super.downloadProgress(progress);

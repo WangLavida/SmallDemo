@@ -11,12 +11,6 @@
     {
       "uri": "a",
       "pkg": "com.wolf.appa"
-    }, {
-      "uri": "b",
-      "pkg": "com.wolf.appb"
-    }, {
-      "uri": "c",
-      "pkg": "com.wolf.appc"
     }
   ]
 }

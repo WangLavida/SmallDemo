@@ -22,7 +22,7 @@ android {
     }
 }
 ext {
-    packageId = 0x7e
+    packageId = 0x7d
 }
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])

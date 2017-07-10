@@ -20,10 +20,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
 }
 ext {
-    packageId = 0x12
+    packageId = 0x7e
 }
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])

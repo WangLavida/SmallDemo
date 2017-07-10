@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "这是C模块", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "这是CC模块", Toast.LENGTH_LONG).show();
             }
         });
     }
